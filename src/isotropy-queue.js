@@ -2,9 +2,9 @@ import Queue from "./queue";
 
 const queues = {};
 
-export function init(queueName, queues) {
-  const db = new Db(queues);
-  queues[queueName] = db;
+export function init(queueName, data) {
+  const queue = new Queue(data);
+  queues[queueName] = queue;
 }
 
 export async function open(queueName) {
