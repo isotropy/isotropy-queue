@@ -16,7 +16,6 @@
     "babel-core": "^6.22.1",
     "babel-preset-modern-browsers": "^10.0.1",
     "babel-preset-stage-3": "^6.24.1",
-    "isotropy-plugin-dev-utils": "^0.0.6",
     "mocha": "*",
     "should": "*",
     "source-map-support": "^0.4.8"

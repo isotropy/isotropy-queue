@@ -1,7 +1,6 @@
 import should from "should";
 import * as babel from "babel-core";
 import sourceMapSupport from "source-map-support";
-import { log } from "util";
 import * as queue from "../isotropy-queue";
 
 sourceMapSupport.install();
